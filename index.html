@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Web Navideña Responsive</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span>Feliz</span>
+          <span>Navidad</span>
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link">
+                <span>01</span> Inicio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link"> <span>02</span> Carta </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link"> <span>03</span> Contáctanos </a>
+            </li>
+          </ul>
+
+          <div class="nav__buttons">
+            <div class="nav__notification">
+              <img src="img/bell.png" alt="image" class="nav__bell" />
+              <div class="nav__circle">2</div>
+            </div>
+            <a href="#" class="button button__dark">Envia una tarjeta</a>
+          </div>
+
+          <!-- Clase button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+        <div class="home__container container">
+          <img src="img/santa.png" alt="image" class="home__img" />
+          <div class="home__data">
+            <div>
+              <h1 class="home__title" id="title-data">
+                Faltan
+                <div class="home__number" id="number-data">03</div>
+                <div class="home__text" id="text-data">Días</div>
+                Para Recibir la Navidad
+              </h1>
+              <h1 class="home__title" id="msg-christmas"></h1>
+            </div>
+            <p class="home__description">
+              Comparte un Poco de Espíritu Navideño y Felicidad con estas
+              Tarjetas Festivas.
+            </p>
+            <a href="#" class="button">Envia una Carta Navideña</a>
+          </div>
+          <img src="img/bell.png" alt="image" class="home__bell" />
+          <img src="img/star.png" alt="image" class="home__star" />
+
+          <div class="home__blob"></div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== SNOW JS ===============-->
+    <script src="https://app.embed.im/snow.js" defer></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
